@@ -1,0 +1,6 @@
+category: X11
+requires: cygwin libedje0 libecore-devel libeet-devel libembryo-devel libevas-devel
+external-source: edje
+sdesc: "Enlightenment animation library (development)"
+ldesc: "A graphical layout and animation library for animated resizable, 
+compressed and scalable themes."
