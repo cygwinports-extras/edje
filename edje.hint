@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libecore0 libedje0 libeet1 libevas0 python
+requires: libecore0 libedje0 libeet1 libevas0 python
 sdesc: "Enlightenment animation library (compilers)"
 ldesc: "A graphical layout and animation library for animated resizable, 
 compressed and scalable themes."
