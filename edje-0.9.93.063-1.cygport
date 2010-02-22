@@ -1,0 +1,10 @@
+DESCRIPTION="Enlightenment animation library"
+HOMEPAGE="http://www.enlightenment.org/"
+SRC_URI="http://download.enlightenment.org/snapshots/2009-12-02/${P}.tar.bz2"
+
+PKG_NAMES="${PN} libedje05 libedje-devel"
+edje_CONTENTS="usr/bin/*.exe usr/share/"
+libedje05_CONTENTS="usr/bin/*-05-0.dll"
+libedje_devel_CONTENTS="usr/include/ usr/lib/"
+
+CYGCONF_ARGS="--includedir=/usr/include/enlightenment"
