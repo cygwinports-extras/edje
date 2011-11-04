@@ -1,5 +1,5 @@
 category: X11
-requires: libedje0 libecore-devel libeet-devel libembryo-devel libevas-devel
+requires: libedje1 libecore-devel libeet-devel libeina-devel libembryo-devel libevas-devel lua
 external-source: edje
 sdesc: "Enlightenment animation library (development)"
 ldesc: "A graphical layout and animation library for animated resizable, 

@@ -1,0 +1,9 @@
+DESCRIPTION="Enlightenment animation library"
+HOMEPAGE="http://www.enlightenment.org/"
+SRC_URI="http://download.enlightenment.org/releases/${P}.tar.bz2"
+PATCH_URI="1.0.1-exeext.patch"
+
+PKG_NAMES="${PN} libedje1 libedje-devel"
+edje_CONTENTS="--exclude=*.dll etc/ usr/bin/ usr/share/"
+libedje1_CONTENTS="usr/bin/*-1.dll"
+libedje_devel_CONTENTS="usr/include/ usr/lib/"
