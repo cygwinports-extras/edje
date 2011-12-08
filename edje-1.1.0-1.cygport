@@ -4,6 +4,8 @@ SRC_URI="http://download.enlightenment.org/releases/${P}.tar.bz2"
 PATCH_URI="1.0.1-exeext.patch"
 
 PKG_NAMES="${PN} libedje1 libedje-devel"
-edje_CONTENTS="--exclude=*.dll etc/ usr/bin/ usr/share/"
+edje_CONTENTS="--exclude=*.dll etc/ usr/bin/ usr/lib/edje/ usr/share/"
 libedje1_CONTENTS="usr/bin/*-1.dll"
-libedje_devel_CONTENTS="usr/include/ usr/lib/"
+libedje_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/"
+
+DIFF_EXCLUDES="Doxyfile"
