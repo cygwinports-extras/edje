@@ -1,0 +1,20 @@
+NAME="edje"
+VERSION=1.7.0
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="Enlightenment animation library"
+DESCRIPTION="A graphical layout and animation library for animated resizable,
+compressed and scalable themes."
+HOMEPAGE="http://www.enlightenment.org/"
+SRC_URI="http://download.enlightenment.org/releases/${P}.tar.bz2"
+PATCH_URI="1.0.1-exeext.patch"
+
+PKG_NAMES="edje libedje1 libedje-devel"
+edje_CONTENTS="--exclude=*.dll --exclude=*cc* etc/ usr/bin/ usr/share/doc/
+               usr/share/edje/examples/ usr/share/mime/"
+libedje1_CONTENTS="usr/bin/*-1.dll"
+libedje_devel_CONTENTS="usr/bin/edje*cc* usr/include/ usr/lib/ usr/share/edje/include/"
+
+DIFF_EXCLUDES="Doxyfile"
+
+KEEP_LA_FILES="none"
