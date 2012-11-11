@@ -7,7 +7,7 @@ DESCRIPTION="A graphical layout and animation library for animated resizable,
 compressed and scalable themes."
 HOMEPAGE="http://www.enlightenment.org/"
 SRC_URI="http://download.enlightenment.org/releases/${P}.tar.bz2"
-PATCH_URI="1.0.1-exeext.patch"
+PATCH_URI="1.7.1-exeext.patch"
 
 PKG_NAMES="edje libedje1 libedje-devel"
 edje_CONTENTS="--exclude=*.dll --exclude=*cc* etc/ usr/bin/ usr/share/doc/
